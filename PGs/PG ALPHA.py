@@ -48,3 +48,4 @@ test = "--.. .--. -.-- - .... --- -."
 morse_decoder(test)
 
 test = 2
+test3 = "ohhohh ohhh yeeee"
