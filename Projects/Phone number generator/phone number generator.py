@@ -21,4 +21,4 @@ def amount_of_pn(n):
         gen_phone_num(8)
 
 
-amount_of_pn(50)
+amount_of_pn(2)
