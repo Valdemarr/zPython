@@ -9,28 +9,29 @@ def morse(text):
     text2list = []
     index_list = []
     conv_index_list = []
-    yerp = ""
+    result = ""
+
     for letter in text:
-        #index_num = index(text)
+        # Put the letters into a list --> ["v", "a", "l"]
         text2list.append(letter)
 
     for element in text2list:
+        # Find the index of each element from the list "text2list" in the list "list"
         what_index = list.index(element)
+        # Put indices into list --> [1, 3, 5]
         index_list.append(what_index)
 
-    for beep in index_list:
-        conv_index_list.append(beep-1)
+    for element2 in index_list:
+        # remove -1 from each index element in the list "index_list" into new list "conv_index_list"
+        conv_index_list.append(element2-1)
 
     for loop in conv_index_list:
-        yerp += list[loop]
+        # Convert new index numbers back to letters
+        result += list[loop]
 
-    print(text2list)
-    print(f"whatindex: {what_index} and type {type(what_index)}")
-    print(index_list)
-    print(conv_index_list)
-    print(yerp)
+    print(result)
 
 
-test = "lav"
+test = "val"
 
 morse(test)
