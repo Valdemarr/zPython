@@ -1,19 +1,33 @@
 # simpliefied morse_code
 
-list = ["V", "v", "A", "a", "L", "l"]
-lc = ["v", "a", "l"]
-uc = ["V", "A", "L"]
+list = ["A", ".-",     "B", "-...",   "C", "-.-.",
+        "D", "-..",    "E", ".",      "F", "..-.",
+        "G", "--.",    "H", "....",   "I", "..",
+        "J", ".---",   "K", "-.-",    "L", ".-..",
+        "M", "--",     "N", "-.",     "O", "---",
+        "P", ".--.",   "Q", "--.-",   "R", ".-.",
+        "S", "...",    "T", "-",      "U", "..-",
+        "V", "...-",   "W", ".--",    "X", "-..-",
+        "Y", "-.--",   "Z", "--..",
+
+        "0", "-----",  "1", ".----",  "2", "..---",
+        "3", "...--",  "4", "....-",  "5", ".....",
+        "6", "-....",  "7", "--...",  "8", "---..",
+        "9", "----.", " ", ""]
 
 
 def morse(text):
-    text2list = []
     index_list = []
     conv_index_list = []
     result = ""
 
-    for letter in text:
-        # Put the letters into a list --> ["v", "a", "l"]
-        text2list.append(letter)
+    text2list = text.replace("   ", "  ").split(" ")
+    print(text)
+    print(text2list)
+
+#    for letter in text:
+    # Put the letters into a list --> ["v", "a", "l"]
+#        text2list.append(letter)
 
     for element in text2list:
         # Find the index of each element from the list "text2list" in the list "list"
@@ -29,9 +43,9 @@ def morse(text):
         # Convert new index numbers back to letters
         result += list[loop]
 
-    print(result)
+    print(f"result: {result}")
 
 
-test = "val"
+test = ".... . -.--   .--- ..- -.. ."
 
 morse(test)
