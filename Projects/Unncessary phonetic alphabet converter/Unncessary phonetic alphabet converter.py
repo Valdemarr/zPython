@@ -1,4 +1,4 @@
-def un_phon_al_conv(text):
+def un_phon_al_conv(text: str):
     text = text.upper()
     result = ""
 
@@ -20,7 +20,17 @@ def un_phon_al_conv(text):
             result += i
             result += " "
 
-    return result.upper() + "."
+    un = open(
+        r"G:\Mit drev\Rayndom\zPython\Projects\Unncessary phonetic alphabet converter\unphalconed.txt", "a")
+    un.write(f"New unphalcone: \n{result}\n\n")
+    un.close()
+
+    print(f"'{j}' sucessfully written to unphalconed.txt")
 
 
-print(un_phon_al_conv("SNøus"))
+f = open(r"G:\Mit drev\Rayndom\zPython\Projects\Unncessary phonetic alphabet converter\file.txt", "r")
+j = f.read()
+f.close()
+
+
+print(un_phon_al_conv(j))
