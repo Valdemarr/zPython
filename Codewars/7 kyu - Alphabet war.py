@@ -3,10 +3,10 @@ def alphabet_war(fight):
     points_right = 0
 
     left_l = ["w", "p", "b", "s"]
-    left_p = ["4", "3", "2", "1"]
+    left_p = [4, 3, 2, 1]
 
     right_l = ["m", "q", "d", "z"]
-    right_p = ["4", "3", "2", "1"]
+    right_p = [4, 3, 2, 1]
 
     for i in fight:
         if i in left_l:
