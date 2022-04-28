@@ -10,7 +10,7 @@ def gen_phone_num(n):
 
     # WRITE phone number HISTORY
     f = open(r"G:\Mit drev\Rayndom\zPython\Projects\Phone number generator\phone numbers.txt", "a")
-    f.write(str(f"{phone_number}\n"))
+    f.write(str(f"{phone_number}\"))
     f.close()
 
 # HOW MANY TO MAKE?

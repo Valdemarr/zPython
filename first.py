@@ -186,3 +186,18 @@ def is_good(a):
 
 
 print(is_good(2))
+
+# Reading files
+f = open("testfile.txt", "r")  # file_handle = open(filename, mode)
+for line in f:  # Go through every line in the file
+    print(line)  # And print them out
+
+# Dictionaries
+dictionary = dict()
+count = 0
+names = ["Mark", "Laura", "Christian", "Jamil", "Sussy", "Laura"]
+for name in names:
+    if name not in dictionary:
+        count += 1
+        dictionary[name] = count
+print(dictionary)
