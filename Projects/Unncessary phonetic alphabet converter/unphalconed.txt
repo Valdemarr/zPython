@@ -60,3 +60,45 @@ Mike Alpha Lima Echo November Echo
 New unphalcone: 
 Victor Alpha Lima Delta Echo Mike Alpha Romeo 
 
+New unphalcon, latinize is True: 
+Victor Alpha Lima Delta Echo Mike Alpha Romeo 
+
+New unphalcon, latinize is True: 
+Victor - Alpha . - Lima Delta . Echo - Mike - . Alpha Romeo . . 
+
+New unphalcon, latinize is True: 
+Victor Alpha Lima Delta ? Echo Mike Alpha Romeo 
+
+New unphalcon, latinize is True: 
+Victor Alpha Lima Delta Echo Mike Alpha Romeo 
+
+New unphalcon, latinize is True: 
+Victor Alpha Lima Delta Echo Mike Alpha Romeo 
+
+New unphalcon, latinize is True: 
+Victor Alpha Lima Delta Echo Mike Alpha Romeo 
+
+New unphalcon, latinize is True: 
+Victor Alpha Lima Delta Echo Mike Alpha Romeo 
+
+New unphalcon, latinize is True: 
+Victor Alpha Lima Delta Echo Mike Alpha Romeo 
+
+New unphalcon, latinize is True: 
+
+
+New unphalcon, latinize is True: 
+
+
+New unphalcon, latinize is True: 
+
+
+New unphalcon, latinize is True: 
+   
+
+New unphalcon, latinize is True: 
+Victor Alpha Lima Delta Echo Mike Alpha Romeo 
+
+New unphalcon, latinize is True: 
+Victor Alpha Lima Delta Echo Mike Alpha Romeo 
+
