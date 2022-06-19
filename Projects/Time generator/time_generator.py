@@ -15,7 +15,7 @@ def random_time(hour_start, hour_end, amount):
         
         time = hour + ":" + minute #Our randomly generated time in a variable
 
-        print("Random time:", time)
+        print(time)
 
         # WRITE result to .txt file
         f = open(r"G:\Mit drev\zPython\Projects\Time generator\times.txt", "a")
