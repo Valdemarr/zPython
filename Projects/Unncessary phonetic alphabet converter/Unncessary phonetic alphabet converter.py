@@ -21,14 +21,14 @@ def un_phon_al_conv(text: str):
             result += " "
 
     un = open(
-        r"G:\Mit drev\Rayndom\zPython\Projects\Unncessary phonetic alphabet converter\unphalconed.txt", "a")
+        r"G:\Mit drev\zPython\Projects\Unncessary phonetic alphabet converter\unphalconed.txt", "a")
     un.write(f"New unphalcone: \n{result}\n\n")
     un.close()
 
     print(f"'{j}' sucessfully written to unphalconed.txt")
 
 
-f = open(r"G:\Mit drev\Rayndom\zPython\Projects\Unncessary phonetic alphabet converter\file.txt", "r")
+f = open(r"G:\Mit drev\zPython\Projects\Unncessary phonetic alphabet converter\file.txt", "r")
 j = f.read()
 f.close()
 
