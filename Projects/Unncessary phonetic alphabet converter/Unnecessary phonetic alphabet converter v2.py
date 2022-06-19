@@ -1,5 +1,5 @@
 def unphalcon(text_to_convert: str, latinize:bool, print_it:bool):
-    text_to_convert = text_to_convert.upper()
+    text_to_convert = text_to_convert.upper() # Make all characters uppercase so they're easier to work with
     alphacon = ""
     latinized = ""
 
@@ -13,38 +13,30 @@ def unphalcon(text_to_convert: str, latinize:bool, print_it:bool):
                 "V": "Victor",      "W": "Whiskey",     "X": "X-ray",
                 "Y": "Yankee",      "Z": "Zulu",        " ": "   "}
 
-    for i in text_to_convert:
-        if i in alphabet.keys():
-            tempy = alphabet[i]
+    for char in text_to_convert:
+        if char in alphabet.keys(): # If the character is in the above alphabet list, 
+            tempy = alphabet[char] # Hold the value - The phonetic word for the letter
             
-            alphacon += tempy + " "
-            latinized += tempy[0:2]
+            alphacon += tempy + " " # Store it in a new variable and keep adding every value every loop
+            latinized += tempy[0:2] # Store only the first 2 characters and keep adding every loop
 
-        elif i not in alphabet.keys():
-            alphacon += i + " "
+        elif char not in alphabet.keys(): # If the character is not in the alphabet list,
+            alphacon += char + " " # Just let it through
 
+    spacer = len(text_to_convert) //2 * 2 # Find the middle of the string
+    first_half = latinized[:spacer].lower().capitalize() # Split up at the middle, and make the first half lower cased, then firt letter uppercase
+    second_half = latinized[spacer:].lower().capitalize() # Same as above
 
-    spacer = len(text_to_convert) //2 * 2
-    first_half = latinized[:spacer].lower().capitalize()
-    second_half = latinized[spacer:].lower().capitalize()
+    latinized = first_half + " " + second_half # Redeclaring the old variable with the new content so we get a space in the middle
 
-    #print(first_half + " " + second_half)
-    latinized = first_half + " " + second_half
+    if latinize == False: # If latinize is False, 
+        result = alphacon # the result is the regular unphalcon
+    else: # Else
+        result = latinized # result is the latinized
 
+    if print_it == True: # If print_it is True,
+        print(f"{text_to_convert} -> {result}") # print result
+    else: # Else
+        return result # return result
 
-    if latinize == False:
-        result = alphacon
-    else:
-        result = latinized
-
-    #fhand = open(   r"G:\Mit drev\zPython\Projects\Unncessary phonetic alphabet converter\unphalconed.txt", "a")
-    #fhand.write(f"New unphalcon, latinize is {latinize}: \n{result}\n\n")
-    #fhand.close()
-
-    #print(f"'{text_to_convert}' sucessfully written to unphalconed.txt")
-    if print_it == True:
-        print(result)
-    else:
-        return result
-
-unphalcon("valdemar", True, True)
+unphalcon("Janus", True, True)
