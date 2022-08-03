@@ -39,4 +39,4 @@ def unphalcon(text_to_convert: str, latinize:bool, print_it:bool):
     else: # Else
         return result # return result
 
-unphalcon("Janus", True, True)
+unphalcon("Mathias", True, True)
