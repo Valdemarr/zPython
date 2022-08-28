@@ -22,7 +22,7 @@ f2 = open(os.path.join(__location__, 'output.txt'), "w") #open and write to outp
 
 f2.write(f"Words given: {input_words}\n\n") # Serves as a title
 
-for i in list(permutations(input_words, 3)): #Creates the possible permutations in a list, with and output of 3 words
+for i in list(permutations(input_words, 2)): #Creates the possible permutations in a list, with and output of 3 words
     string_result = " ".join(i) # Converts list to single string
     f2.write(f"{string_result}\n") #Write to output file
 
