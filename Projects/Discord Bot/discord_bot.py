@@ -1,5 +1,6 @@
 import discord
 import os
+import config
 
 # Doing some stuff so that it diddles files from the same directory where this file is
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
@@ -20,8 +21,8 @@ async def on_message(message):
         return
     
     # Writing result to file in directory - GOOD FOR LOGGING
-    f2 = open(os.path.join(__location__, 'log.txt'), "w") #open and write to output file
-    f2.write(f"\n{message.content}") #Write to output file
+    f2 = open(os.path.join(__location__, 'log.txt'), "a") #open and write to output file
+    f2.write(f"{message.content}\n") #Write to output file
     f2.close()
 
     if message.content.startswith('!hello'):
@@ -30,4 +31,4 @@ async def on_message(message):
     if message.content.startswith("bruh"):
         await message.channel.send("https://www.youtube.com/watch?v=TKuLxJCArmg")
 
-client.run('NTc1MTE3NjA4ODgyNTM2NDk4.GxzB6S.MmEFcM6tU_0vQTEN4pxGVVVoE-4yQ9CsLt5gHM')
+client.run(config.bot_token)
