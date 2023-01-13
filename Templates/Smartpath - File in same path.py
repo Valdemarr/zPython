@@ -8,7 +8,7 @@ f = open(os.path.join(__location__, 'input.txt'), "r") # Open and read input fil
 #needs reading line here
 f.close()
 
-# Writing result to file in directory
+# Writing result to file in directory - GOOD FOR LOGGING
 f2 = open(os.path.join(__location__, 'output.txt'), "w") #open and write to output file
 f2.write("whatever") #Write to output file
 f2.close()
