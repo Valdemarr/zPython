@@ -25,7 +25,7 @@ async def on_message(message):
     if message.author != client.user:
         for i2 in lists.bad_words:
             if i2 in message.content:
-                await message.reply("yeet")
+                await message.reply(lists.bad_words_reply[0].format(message.author.name))
     
     # Writing chatlog to log.txt
     f2 = open(os.path.join(__location__, 'log.txt'), "a", encoding="utf-8") #open and write to output file, encoding added to allow emojis
