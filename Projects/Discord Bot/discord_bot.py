@@ -8,16 +8,16 @@ import lists
 # Doing some stuff so that it diddles files from the same directory where this file is
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
+#Necessary Discord setup stuff
 intents = discord.Intents.default()
 intents.message_content = True #This has to be checked off on https://discord.com/developers/applications/ too - "Bot" tab
-
 client = discord.Client(intents=intents)
 
-@client.event
-async def on_ready():
+@client.event #Start event i guess
+async def on_ready(): #Which event
     print(f'We have logged in as {client.user}')
 
-    channel = client.get_channel(1063887939219767376)
+    channel = client.get_channel(1063887939219767376) #The channel to send message to
     await channel.send("*momBOT online*")
 
 @client.event
@@ -25,7 +25,7 @@ async def on_message(message):
     if message.author != client.user:
         for i2 in lists.bad_words:
             if i2 in message.content:
-                await message.reply(lists.bad_words_reply[0].format(message.author.name))
+                await message.reply(lists.bad_words_reply[0].format(message.author.name)) #This doesn't work yet
     
     # Writing chatlog to log.txt
     f2 = open(os.path.join(__location__, 'log.txt'), "a", encoding="utf-8") #open and write to output file, encoding added to allow emojis
@@ -54,4 +54,4 @@ async def on_message(message):
     if message.content.startswith("/recall"):
         pass
 
-client.run(config.bot_token)
+client.run(config.bot_token) #Runs using token from config.py
