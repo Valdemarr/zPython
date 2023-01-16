@@ -1,0 +1,17 @@
+bad_words = ['anal', 'anus', 'arse', 'ass', 'ass fuck', 'ass hole', 
+            'assfucker', 'asshole', 'assshole', 'bastard', 'bitch', 
+            'black cock', 'bloody hell', 'boong', 'cock', 'cockfucker', 
+            'cocksuck', 'cocksucker', 'coon', 'coonnass', 'cunt', 
+            'cyberfuck', 'dick', 'dirty', 'douche', 'dummy', 'erect', 
+            'erection', 'erotic', 'escort', 'fag', 'faggot', 'fuck', 
+            'Fuck off', 'fuck you', 'fuckass', 'fuckhole', 'gook', 
+            'hard core', 'hardcore', 'homoerotic', 'lesbian', 'lesbians', 
+            'mother fucker', 'motherfuck', 'motherfucker', 'negro', 
+            'nigger', 'orgasim', 'orgasm', 'penis', 'penisfucker', 
+            'piss', 'piss off', 'porn', 'porno', 'pornography', 'pussy', 
+            'retard', 'sadist', 'sex', 'sexy', 'shit', 'slut', 
+            'son of a bitch', 'tits', 'viagra', 'whore']
+
+bad_words_reply = ["Watch the language {}.."]
+
+advice = ["Eat your vegetables", "Stay away from drugs", "Beat up your teacher"]

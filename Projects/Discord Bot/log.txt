@@ -1,0 +1,116 @@
+Hey
+
+i am
+Betoir
+me too?
+what a bout ut
+
+back once a gaiin
+with tthee
+renegage
+!hello
+embed=discord.Embed(
+    title="Text Formatting",
+        url="https://realdrewdata.medium.com/",
+        description="Here are some ways to format text",
+        color=discord.Color.blue())
+    embed.set_author(name="RealDrewData", url="https://twitter.com/RealDrewData", icon_url="https://cdn-images-1.medium.com/fit/c/32/32/1*QVYjh50XJuOLQBeH_RZoGw.jpeg")
+    #embed.set_author(name=ctx.author.display_name, url="https://twitter.com/RealDrewData", icon_url=ctx.author.avatar_url)
+valdemAAAAAARRRRRGGG#2197: wlecome
+valdemAAAAAARRRRRGGG#2197: 🤠
+EPIC RPG#4117: 
+EPIC RPG#4117: 
+valdemAAAAAARRRRRGGG#2197: yoyoyoyo
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : yoyoyoyo
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : otrtorotrotro
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : test
+EPIC RPG#4117: EPIC RPG : 
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : <@135757011542474752>
+EPIC RPG#4117: EPIC RPG : 
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : /advice
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : /advice
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : /advice
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : /advice
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : test
+EPIC RPG#4117: EPIC RPG : 
+EPIC RPG#4117: EPIC RPG : 
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : /advice
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : balls
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : balls
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : we
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : we
+EPIC RPG#4117: EPIC RPG : 
+EPIC RPG#4117: EPIC RPG : 
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : we
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : we
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : each
+momBOT#8124: momBOT : *momBOT online*
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : rpg config
+EPIC RPG#4117: EPIC RPG : 
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : off
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : config update off
+momBOT#8124: momBOT : *momBOT online*
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : fuck
+momBOT#8124: momBOT : *momBOT online*
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : fuck
+momBOT#8124: momBOT : *momBOT online*
+momBOT#8124: momBOT : *momBOT online*
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : fuck
+momBOT#8124: momBOT : *momBOT online*
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : fuck
+momBOT#8124: momBOT : *momBOT online*
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : fuck
+momBOT#8124: momBOT : *momBOT online*
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : fuck
+EPIC RPG#4117: EPIC RPG : 
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : jeep
+momBOT#8124: momBOT : *momBOT online*
+Tatsu#8792: Tatsu : 
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : yo
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : fuck
+momBOT#8124: momBOT : *momBOT online*
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : fuck
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : yeah
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : ohohohohoho
+momBOT#8124: momBOT : *momBOT online*
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : fuck
+momBOT#8124: momBOT : *momBOT online*
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : /advice
+momBOT#8124: momBOT : momBOT advice: Stay away from drugs
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : /advice
+momBOT#8124: momBOT : momBOT advice: Eat your vegetables
+valdemAAAAAARRRRRGGG#2197: valdemAAAAAARRRRRGGG : /advance
+momBOT#8124: momBOT : *momBOT online*
+momBOT#8124: *momBOT online*
+Tatsu#8792: 
+valdemAAAAAARRRRRGGG#2197: /advice
+momBOT#8124: momBOT advice: Beat up your teacher
+valdemAAAAAARRRRRGGG#2197: fuck
+momBOT#8124: *momBOT online*
+valdemAAAAAARRRRRGGG#2197: fuck
+valdemAAAAAARRRRRGGG#2197: hey
+valdemAAAAAARRRRRGGG#2197: hey
+momBOT#8124: *momBOT online*
+valdemAAAAAARRRRRGGG#2197: hey
+MEE6#4876: GG <@135757011542474752>, you just advanced to level 12!
+valdemAAAAAARRRRRGGG#2197: fuck
+valdemAAAAAARRRRRGGG#2197: hey
+valdemAAAAAARRRRRGGG#2197: fuck
+momBOT#8124: *momBOT online*
+momBOT#8124: yeet
+valdemAAAAAARRRRRGGG#2197: fuck
+momBOT#8124: *momBOT online*
+momBOT#8124: Watch the language ..
+valdemAAAAAARRRRRGGG#2197: fuck
+momBOT#8124: Watch the language ..
+valdemAAAAAARRRRRGGG#2197: shit
+valdemAAAAAARRRRRGGG#2197: Sh!t
+momBOT#8124: *momBOT online*
+valdemAAAAAARRRRRGGG#2197: cum
+momBOT#8124: Watch the language ..
+valdemAAAAAARRRRRGGG#2197: shit
+momBOT#8124: *momBOT online*
+momBOT#8124: Watch the language ..
+valdemAAAAAARRRRRGGG#2197: shit
+momBOT#8124: *momBOT online*
+momBOT#8124: *momBOT online*
