@@ -17,6 +17,21 @@ print("""
 Welcome to the world of Arepeegy. After escaping from prison and fleeing                                                     
      """)
 
+class entity:
+    def __init__(self, hp, ap, armor):
+
+        self.hp = hp
+        self.ap = ap
+        self.armor = armor
+
+def get_hp(self):
+    return self.hp
+
+def set_hp(self):
+    self.hp = new_hp
+    new_hp = 100
+
+
 while True:
     action = input("What do you want to do? \n  ")
 
@@ -47,29 +62,27 @@ while True:
     elif "go west" in action:
         print("You got West")
         y-=1
+    elif "health" in action:
+        (print(get_hp))
     
-    if "coordinates" in action or "location" in action:
+    elif "coordinates" in action or "location" in action:
         print(f"Your coordinates are: {x},{y}")
         if x==0 and y==0:
             print("MOVE already")
     
-    if action == "end" or action == "q":
+    elif action == "end" or action == "q":
         print("[ENDING LOOP]")
         break
-
+    else:
+        print("That's not an action. Type /help to see available commands")
     
 
 #class player:
     #def __init__(self, health):
       #  self.health = health
         
-#def get_health(self):
-    #return self.health
-
-#def set_health(self):
-   # self.health = new_health
-  #e  new_health = 100
-
 
 
 #get_health(self)
+
+
