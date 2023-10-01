@@ -1,0 +1,27 @@
+{
+  "starred": false,
+  "viewers_can_download": true,
+  "editors_can_edit_access": true,
+  "last_modified_by_any_user": "2022-08-28T08:58:09.866Z",
+  "last_modified_by_me": "2022-08-28T08:58:09.866Z",
+  "content_last_modified": "2022-08-28T08:58:09.866Z",
+  "created": "2022-08-28T08:58:14.544Z",
+  "permissions": [
+    {
+      "id": "12266771927448230055",
+      "name": "Valdemar Skjøth Thøisen",
+      "type": "user",
+      "role": "owner",
+      "kind": "drive#permission",
+      "photo_link": "https://lh3.googleusercontent.com/a/ACg8ocK168gKfAkWj19ijhy6G2uYRG4jSDSn1g_pu85JpPGZaog=s64",
+      "self_link": "https://www.googleapis.com/drive/v2/files/1sIoU3r8nAVh7A7OVQD8oGwETe2rO57gr/permissions/12266771927448230055",
+      "email_address": "valdemarsthoisen@gmail.com",
+      "domain": "gmail.com",
+      "etag": "\"BBacZfiICTKe5mRfjRYUae_xTKo\"",
+      "deleted": false,
+      "pending_owner": false
+    }
+  ],
+  "title": "Arithmetic formatter - freeCodeCamp",
+  "mime_type": "application/vnd.google-apps.folder"
+}

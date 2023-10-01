@@ -1,0 +1,27 @@
+{
+  "starred": false,
+  "viewers_can_download": true,
+  "editors_can_edit_access": true,
+  "last_modified_by_any_user": "2022-06-19T19:50:04.215Z",
+  "last_modified_by_me": "2022-06-19T19:50:04.215Z",
+  "content_last_modified": "2022-06-19T19:50:04.215Z",
+  "created": "2021-11-08T20:55:30.552Z",
+  "permissions": [
+    {
+      "id": "12266771927448230055",
+      "name": "Valdemar Skjøth Thøisen",
+      "type": "user",
+      "role": "owner",
+      "kind": "drive#permission",
+      "photo_link": "https://lh3.googleusercontent.com/a/ACg8ocK168gKfAkWj19ijhy6G2uYRG4jSDSn1g_pu85JpPGZaog=s64",
+      "self_link": "https://www.googleapis.com/drive/v2/files/1yfsl-nYde3i1ydq3FjwpHcNAFVsrmhKa/permissions/12266771927448230055",
+      "email_address": "valdemarsthoisen@gmail.com",
+      "domain": "gmail.com",
+      "etag": "\"bk-l-rSefVzJphXuavaRjJnCFtg\"",
+      "deleted": false,
+      "pending_owner": false
+    }
+  ],
+  "title": "Unncessary phonetic alphabet converter.py",
+  "mime_type": "text/x-python"
+}

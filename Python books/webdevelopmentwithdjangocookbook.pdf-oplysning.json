@@ -1,0 +1,36 @@
+{
+  "starred": false,
+  "viewers_can_download": true,
+  "editors_can_edit_access": true,
+  "last_modified_by_any_user": "2021-04-12T18:23:58Z",
+  "last_modified_by_me": "2021-04-12T18:23:58Z",
+  "content_last_modified": "2021-04-12T18:23:58Z",
+  "created": "2021-04-12T18:30:12.114Z",
+  "permissions": [
+    {
+      "id": "anyoneWithLink",
+      "type": "anyone",
+      "role": "reader",
+      "kind": "drive#permission",
+      "with_link": true,
+      "self_link": "https://www.googleapis.com/drive/v2/files/1izNp6FdU852YXIh9nrfuttgvmWSLubC3/permissions/anyoneWithLink",
+      "etag": "\"0FmQUfbkOxxi6mRKEVoyUDwqZlU\""
+    },
+    {
+      "id": "12266771927448230055",
+      "name": "Valdemar Skjøth Thøisen",
+      "type": "user",
+      "role": "owner",
+      "kind": "drive#permission",
+      "photo_link": "https://lh3.googleusercontent.com/a/ACg8ocK168gKfAkWj19ijhy6G2uYRG4jSDSn1g_pu85JpPGZaog=s64",
+      "self_link": "https://www.googleapis.com/drive/v2/files/1izNp6FdU852YXIh9nrfuttgvmWSLubC3/permissions/12266771927448230055",
+      "email_address": "valdemarsthoisen@gmail.com",
+      "domain": "gmail.com",
+      "etag": "\"3_h59UhPjEoGvsMYhHMA2O1luGE\"",
+      "deleted": false,
+      "pending_owner": false
+    }
+  ],
+  "title": "webdevelopmentwithdjangocookbook.pdf",
+  "mime_type": "application/pdf"
+}

@@ -18,20 +18,27 @@ def arithmetic_arranger(problems, calculate=False):
 
     amount = len(fn)
 
-    #--CALCULATION--#
-    for j in range(amount): #Determine (from the input operator) wether or not it should add or subtract
-        if "+" in op[j]:
-            actual_calctual.append(int(fn[j]) + int(sn[j]))
-        elif "-" in op[j]:
-            actual_calctual.append(int(fn[j]) - int(sn[j]))
+
+    for slice in range(amount):
+        #--RAISING ERRORS--#
+        if fn[slice].isdigit() == False or sn[slice].isdigit() == False:
+            raise Exception("Error: Numbers must only contain digits.")
+        else:
+            pass
+
+        if len(fn[slice]) > 4 or len(sn[slice]) > 4:
+            raise Exception("Error: Numbers cannot be more than four digits.")
+        else:
+            pass
+
+        if "+" in op[slice]:
+            actual_calctual.append(int(fn[slice]) + int(sn[slice]))
+        elif "-" in op[slice]:
+            actual_calctual.append(int(fn[slice]) - int(sn[slice]))
         else:
             raise Exception("Error: Operator must be '+' or '-'.")
 
-    
-    
-
-    for slice in range(amount):
-        
+        #--FIND LENGTH DIFFS--#
         if len(fn[slice]) > len(sn[slice]):
             diff = len(fn[slice]) - len(sn[slice])
             sn[slice] = " "*diff + sn[slice]
@@ -47,38 +54,40 @@ def arithmetic_arranger(problems, calculate=False):
         sn_calc_diff = len(sn[slice]) - len(str(actual_calctual[slice])) #Get the difference between sn (which is the same length as the dashes), in a string because it's an int
         actual_calctual[slice] = " " * sn_calc_diff + str(actual_calctual[slice]) #Add the difference in spaces before the result
 
-    #--PRINTING THE STUFF--#
+    #--PRINTING THE STUFF--# ooorr.. ASSEMBLING THE STUFF
     holder = ""
 
     for number in fn:
         holder += number + "    "
     
-    print(holder)
+    arranged_problems += holder + "\n"
+    #print(holder)
     holder = ""
 
     for numbi in sn:
         holder += numbi + "    "
     
-    print(holder)
+    #print(holder)
+    arranged_problems += holder + "\n"
     holder = ""
 
-    #hold_holder = []
 
     for dash in range(amount):
         holder += len(sn[dash]) * "-" + "    "
-        #hold_holder.append(holder)
 
-    #print(hold_holder)
-
-    print(holder)
+    arranged_problems += holder + "\n"
+    #print(holder)
     holder = ""
 
     #--OPTIONAL OUTPUT--#
     if calculate == True:
         for result in actual_calctual:
             holder += str(result) + "    "
-        print(holder)
+        #print(holder)
+        arranged_problems += holder
 
     return arranged_problems
 
-print(arithmetic_arranger(["0 + 8", "1 - 3801", "929 + 9999", "3 - 49"], True))
+print(arithmetic_arranger(["3801 - 2", "123 + 49"], True))
+
+#there are unnecessary 4 spaces on each line

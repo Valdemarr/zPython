@@ -1,0 +1,36 @@
+{
+  "starred": false,
+  "viewers_can_download": true,
+  "editors_can_edit_access": true,
+  "last_modified_by_any_user": "2021-04-12T18:23:50Z",
+  "last_modified_by_me": "2021-04-12T18:23:50Z",
+  "content_last_modified": "2021-04-12T18:23:50Z",
+  "created": "2021-04-12T18:30:17.416Z",
+  "permissions": [
+    {
+      "id": "anyoneWithLink",
+      "type": "anyone",
+      "role": "reader",
+      "kind": "drive#permission",
+      "with_link": true,
+      "self_link": "https://www.googleapis.com/drive/v2/files/1OTD8HIFPC4_zBQw8fbpeFEZ58w1lPkHH/permissions/anyoneWithLink",
+      "etag": "\"-JPVRRubH8Sr7xPwe0-MtOs4a_I\""
+    },
+    {
+      "id": "12266771927448230055",
+      "name": "Valdemar Skjøth Thøisen",
+      "type": "user",
+      "role": "owner",
+      "kind": "drive#permission",
+      "photo_link": "https://lh3.googleusercontent.com/a/ACg8ocK168gKfAkWj19ijhy6G2uYRG4jSDSn1g_pu85JpPGZaog=s64",
+      "self_link": "https://www.googleapis.com/drive/v2/files/1OTD8HIFPC4_zBQw8fbpeFEZ58w1lPkHH/permissions/12266771927448230055",
+      "email_address": "valdemarsthoisen@gmail.com",
+      "domain": "gmail.com",
+      "etag": "\"pPP-3fo62UbyZRySDnQs68MLzMk\"",
+      "deleted": false,
+      "pending_owner": false
+    }
+  ],
+  "title": "statisticsandcalculuswithpythonworkshop.pdf",
+  "mime_type": "application/pdf"
+}
